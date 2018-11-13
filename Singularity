@@ -28,4 +28,3 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
     apt-get -y update
     apt-get -y upgrade
 
-    apt-get -y install wget
