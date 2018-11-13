@@ -30,11 +30,3 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
 
     apt-get -y install wget
 
-    mkdir MCR
-    wget -p MCR http://ssd.mathworks.com/supportfiles/downloads/R2017b/deployment_files/R2017b/installers/glnxa64/MCR_R2017b_glnxa64_installer.zip
-
-    cd MCR
-    unzip MCR_R2017b_glnxa64_installer.zip
-    ./install -mode silent -agreeToLicense yes -destinationFolder $HOME/MATLAB/MATLAB_Runtime/v93
-    cd ..
-    rm -rf MCR
